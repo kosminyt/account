@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+    <link rel="icon" href="C:\Users\user\Downloads\like.png">
+    <style>
+        .login {
+            height: 100px;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            margin-top: 10%;
+        }
+        .id {
+            width: 80%;
+            height: 50px;
+            font-size: larger;
+            margin-left: auto;
+            margin-left: 10%;
+        }
+        .pw {
+            width: 80%;
+            height: 50px;
+            font-size: larger;
+            /* margin-left: auto; */
+            margin-left: 10%;
+            margin-top: 5px;
+        }
+        .bt {
+            margin-left: 40%;
+            width: 20%;
+            height: 50px;
+            margin-top: 10px;
+            text-align: center;
+            color: black;
+        }
+        .question {
+            text-align: center;
+            width: 40%;
+            height: 50px;
+            margin-left: 30%;
+            margin-top: 10px;
+            color: lightslategray;
+        }
+        .fav {
+            width: 10%;
+            height: 50px;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 13%;
+            color: lightskyblue;
+        }
+        .homepage {
+            width: 30%;
+            height: 50px;
+            display: inline-block;
+            margin-left: 35%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .color {
+            color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <div class="login">
+        <h1>회원가입</h1>
+    </div>
+    <input class="id" type="text" name="userid" id="userid" placeholder="이름을 입력하세요">
+    <br>
+    <input class="pw" type="password" name="pw" id="pw" placeholder="아이디를 입력하세요">
+    <br>
+    <input class="pw" type="password" name="pw" id="pw" placeholder="이메일을 입력하세요">
+    <br>
+    <input class="pw" type="password" name="pw" id="pw" placeholder="비밀번호를 입력하세요">
+    <br>
+    <div class="question">1. 좋아하는 과일을 선택하세요</div>
+    <div class="fav">
+        <input type="checkbox" name="op1" id="op1">
+        <label for="op1">배</label>
+    </div>
+    <div class="fav">
+        <input type="checkbox" name="op2" id="op2">
+        <label for="op2">사과</label>
+    </div>
+    <div class="fav">
+        <input type="checkbox" name="op3" id="op3">
+        <label for="op3">딸기</label>
+    </div>
+    <div class="fav">
+        <input type="checkbox" name="op4" id="op4">
+        <label for="op4">복숭아</label>
+    </div>
+    <input class="bt" type="button" value="회원가입">
+    <br>
+    <div class="homepage">
+        <a  class="color" href="로그인.html">로그인</a>
+    </div>
+    </form>
+</body>
+</html>
